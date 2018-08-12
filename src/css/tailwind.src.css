@@ -1,0 +1,17 @@
+@tailwind preflight;
+@tailwind components;
+
+.nav-item-selected {
+  @apply no-underline p-5 inline-block border border-blue rounded bg-blue text-white;
+}
+
+.nav-item {
+  @apply no-underline p-5 inline-block border border-white text-blue rounded;
+}
+
+.nav-item:hover {
+  @apply border-grey-lighter text-blue bg-grey-lighter;
+}
+
+@tailwind utilities;
+

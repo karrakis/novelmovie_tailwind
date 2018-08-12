@@ -1,0 +1,11 @@
+.nav-item-selected {
+  @apply no-underline p-5 inline-block border border-blue rounded py1 px3 bg-blue text-white;
+}
+
+.nav-item {
+  @apply no-underline p-5 inline-block border border-white rounded py-3 px-5;
+}
+
+.nav-item:hover {
+  @apply border-grey-lighter text-blue bg-grey-lighter
+}
